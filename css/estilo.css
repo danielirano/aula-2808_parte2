@@ -1,0 +1,33 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.caixas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.caixa, .caixa_centro, .caixa_es, .caixa_dir{
+  margin: 5px;
+}
+.caixas_meio, .caixa_esquerda, .caixa_direita{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.caixas_meio{
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa_esquerda{
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.caixa_direita{
+  justify-content: flex-end;
+  align-items: center;
+}
